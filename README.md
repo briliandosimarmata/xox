@@ -2,6 +2,8 @@
 
 A small, mobile-first game for two people sharing a screen. Plain HTML, CSS, and JavaScript; no runtime dependencies, package installation, build step, backend, or account. Its light Start screen and navy play screen borrow Fingertip's colors, rounded system typography, and pill buttons.
 
+Play at **[xox.briliando.dev](https://xox.briliando.dev)**.
+
 ## Run locally
 
 From this project folder:
@@ -53,8 +55,6 @@ Tests cover both players' eight winning lines, invalid moves, removal order, app
 - `tests/`: Node's built-in behavior tests.
 
 All five browser files together must stay below 30 KB uncompressed. The app downloads no fonts, images, libraries, or telemetry and uses no continuous animation loop, interval, move log, or browser storage. Game data stays bounded during long rounds. Total browser memory depends on the device and browser; the asset budget is not a claim about total process memory.
-
-For static hosting later, upload the five browser files together to the same directory. This project has not been published.
 
 ## Verification status
 

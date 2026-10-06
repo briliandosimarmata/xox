@@ -1,2 +1,9 @@
 .DS_Store
 __pycache__/
+
+# Local deployment notes and private configuration.
+/deploy/
+.env
+.env.*
+*.pem
+*.key
